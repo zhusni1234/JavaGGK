@@ -4,6 +4,7 @@ public class DifferentScopes {
     double instanceDouble = 1.8;
     String instanceVariableString = "This is a string";
 
+// add static is just for this once meaning cant be used by another instance anymore
     static int instantVariableStatic = 20;
 
     public void showLocalVariable(){
